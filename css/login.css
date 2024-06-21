@@ -1,0 +1,84 @@
+body {
+    background-color: lightblue;
+}
+
+main {
+    max-width: 600px;
+    margin: 2em 1em;
+    padding: 1em;
+    background-color: #ffffffe3;
+    border-radius: 12px;
+}
+
+.back-arrow {
+    display: block;
+    max-width: 50px;
+    width: 100%;
+    padding: 0;
+    font-size: 64px;
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+main img {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: .25em 0;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.form-wrapper {
+    background-color: var(--white);
+    padding: 1em;
+    border-radius: 12px;
+}
+
+form, ::placeholder {
+    font-family: "proxima-soft", sans-serif;
+}
+
+form label {
+    display: none;
+}
+
+form input {
+    max-width: 100%;
+    width: 100%;
+    padding: .75em;
+    margin: .5em;
+    border: 1.5px solid black;
+    border-radius: 4px;
+}
+
+form button {
+    border: none;
+    font-family: "proxima-soft", sans-serif;
+    margin: 0 auto;
+}
+
+form a {
+    color: var(--blue);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'proxima-soft', sans-serif;
+    font-weight: 900;
+    padding: .5em;
+}
+
+@media (min-width: 550px) {
+    main {
+        margin: 2em auto;
+    }
+}

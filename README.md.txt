@@ -1,0 +1,5 @@
+## License and Usage
+
+All materials in this repository are protected by copyright. Permission is granted to view this repository for personal, educational, or research purposes only. Redistribution, modification, commercial use, and any other usage of this repository, in whole or in part, are strictly prohibited without prior written permission from the copyright holder.
+
+For permissions, please contact Nicole Slaughter.
